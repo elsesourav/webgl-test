@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   user-select: none;
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+
+   touch-action: none;
+   -ms-touch-action: none;
+   -moz-touch-action: none;
+   -webkit-touch-action: none;
+   -khtml-touch-action: none;
+
+   outline: solid 1px #f00;
+}
+
+body {
+   width: 100svw;
+   height: 100svh;
+   display: grid;
+   place-items: center;
+   overflow: hidden;
+}
+
+canvas {
+   width: 100%;
+   height: 100%;
+   /* border: solid 1px #f00; */
+}
